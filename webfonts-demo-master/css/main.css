@@ -1,0 +1,23 @@
+/* --- import webfonts ---*/
+/*regular*/
+@font-face {
+    font-family: "bebas";
+    src: url("../fonts/bebas___-webfont.woff2") format("woff2"),
+         url("../fonts/bebas___-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* --- typography / general */
+
+h1 {
+  font: bold 5em/1.1 "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 0;
+  margin-bottom: .3em;
+  }
+
+p {
+  font: 1em/1.4 Arial, sans-serif;
+  }
